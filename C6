@@ -1,5 +1,5 @@
 data = []
-	data.push(["location","magnitude"])
+	data.push(["magnitude","location"])
 	for(i=2;i<=13;i++){
 		mag = document.querySelector(`body > div > table:nth-child(4) > tbody > tr:nth-child(${i}) > td:nth-child(5)`)
 		loc = document.querySelector(`body > div > table:nth-child(4) > tbody > tr:nth-child(${i}) > td.auto-style52`)
